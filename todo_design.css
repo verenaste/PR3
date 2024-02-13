@@ -1,0 +1,64 @@
+.ueberfaellig {
+	color: red;
+	font-weight: bold;
+}
+.completedTodo {
+	text-decoration: line-through;
+}
+body {
+	font-family: Arial, sans-serif;
+	font-size: 80%;
+	text-align: left;
+}
+small {
+	font-size: 70%;
+	font-style: italic;
+	padding: 8px;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+th, td {
+	border: 1px solid #ccc;
+	padding: 8px;
+	text-align: left;
+}
+th {
+	background-color: #afafaf;
+	font-weight: bold;
+	padding: 10px;
+	text-transform: uppercase;
+}
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+input[type="text"] {
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+input[type="date"] {
+	padding: 8px;
+	border: 1px solid #ccc;
+}
+input[type="submit"] {
+	background-color: #f2f2f2;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+input[type="submit"]:hover {
+	background-color: #afafaf;
+}
+#CompletedTodosButton{
+	background-color: #f2f2f2;
+	margin-bottom: 2px;
+	padding: 10px;	
+	border: 1px solid #ccc;
+}
+#CompletedTodosButton:hover {
+ 	background-color: #afafaf;
+}
+.hidden {
+	display:none;
+}
+
